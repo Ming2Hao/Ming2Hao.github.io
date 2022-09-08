@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family:"Inter","Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-gelap{
+    background-color: #212121;
+}
+.bg-terang{
+    background-color: #D3D3D3;
+}
+#pp{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #D3D3D3;
+}
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid gold;
+    position: relative;
+    color: #D3D3D3;
+}
+.resume-item h5 {
+    font-size: 16px;
+    background: #f7f8f9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #212121;
+}
+.resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: gold;
+    margin-bottom: 10px;
+}
+.resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #212121;
+    border: 2px solid gold;
+}
+.info {
+    width: 100%;
+    background: #212121;
+}
+.info i {
+    font-size: 20px;
+    color: gold;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: gold;
+}
+.info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #D3D3D3;
+}
+.info .email,.info .phone {
+    margin-top: 40px;
+}
+.info .email:hover i,
+.info .address:hover i,
+.info .phone:hover i {
+    background: gold;
+    color: #212121;
+}
+.namagede{
+    background-color: gold;
+    padding-left: 10%;
+}
+.tulisangede{
+    font-size: 5em;
+}
+.tulisangede2{
+    font-size: 2em;
+}
+.tulisankecil{
+    letter-spacing: 1em;
+}
+.pleft{
+    padding-left: 10%;
+}
+.pright{
+    padding-right: 10%;
+}
+.paddingbawahkecil{
+    margin-bottom: 0;
+}
+.garis{
+    border-top: 3px solid;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding-bottom: 2em;
+    color: #212121;
+}
+.bgemas2{
+    background-color: gold;
+}
